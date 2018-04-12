@@ -1,0 +1,66 @@
+body { background: url("../img/homechef-background.jpg"); }
+
+.container {
+	width: 1000px;
+	margin: 50px auto;
+	border-radius: 15px;
+	height: 650px;
+	background: rgba(255, 255, 255, 0.5);
+}	
+
+#logo {
+	display: block;
+	width: 400px;
+	margin: 50px auto;
+}
+
+.container p {
+	font-family: 'Hoefler Text', Georgia, serif;
+	font-style: italic;
+	font-size: 25px;
+	margin: 0;
+	text-indent: 35%;
+}
+
+#indent { text-indent: 47%; }
+
+button {
+	font-family: sans-serif;
+	padding: 10px 20px;
+	margin: 100px 400px;
+	font-size: 30px;
+	min-width: 96px;
+	line-height: 46px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+	text-shadow: 0 1px #154c86;
+	background-color: #247edd;
+	background-clip: padding-box;
+	background-color: #1ca913;
+	border-color: green;
+	border: 1px solid;
+	border-radius: 5px;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}
+
+button:before {
+	border-radius: 10px;
+	background: transparent;
+	box-shadow: inset 0 0 38px rgba(255, 255, 255, 0.5);
+}
+
+.button:active:before {
+	box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2);
+}
+
+button:hover { background-color: #159b0d; }
+
+button:active {
+	text-shadow: 0 -1px #0d4d09;
+	background: #189210;
+	border-color: #093606 #0d4d09 #147b0e;
+	background-image: linear-gradient(to bottom, #126d0c, #20c016);
+}
