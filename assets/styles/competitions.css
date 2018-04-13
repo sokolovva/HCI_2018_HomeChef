@@ -28,6 +28,10 @@ label {
 	margin: 3% 15%;
 }
 
+hr { 
+	width: 90%;
+}
+
 select {
 	width: 70%;
 	height: 30px;
@@ -43,5 +47,5 @@ select {
 }
 
 .button.style.in {
-	margin: 4% 45%;
+	margin: 4% 43%;
 }
