@@ -1,0 +1,25 @@
+body { background: url("../img/homechef-background.jpg"); }
+
+.circle {
+	display: block;
+	margin: 80px auto;
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.circle p {
+	font-family: 'Hoefler Text', Georgia, serif;
+	color: #45a316;
+	text-shadow: 0 1px #154c86;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.microphone {
+	display: block;
+	width: 200px;
+	margin: auto auto;
+}
