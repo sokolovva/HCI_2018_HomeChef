@@ -1,0 +1,54 @@
+body { background: url("../img/background.jpg"); }
+
+p, .result, fieldset {
+	background: rgba(255, 255, 255, 0.5);
+	width: 90%;
+	margin: 2% auto; 
+	border-radius: 10px;
+}
+
+p, .result {
+	border: 2px solid black;
+	font-family: 'Hoefler Text', Georgia, serif;
+	color: #45a316;
+	text-shadow: 0 1px #154c86;
+	font-size: 240%;
+	padding: 1%;
+	text-align: center;
+}
+
+.result {
+	font-family: Arial;
+	color: black;
+}
+
+fieldset {
+	clear: both;
+	border: 4px solid black;
+	font-size: 190%;
+}
+
+legend {
+	font-size: 130%;
+	color: black;
+	font-weight: bold;
+	margin: 2% 4%;
+}
+
+label { margin-left: 4%; }
+
+.input {
+	border-radius: 5px;
+	width: 90%;
+	height: 30px;
+	clear: both;
+	margin: 1% 4%;
+}
+
+.button.style {
+	font-family: sans-serif;
+	margin: 5% 45%;
+	font-size: 100%;
+	min-width: 10%;
+	line-height: 140%;
+}

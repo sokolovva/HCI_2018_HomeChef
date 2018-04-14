@@ -1,0 +1,37 @@
+body { background: url("../img/background.jpg"); }
+
+.container {
+	width: 80%;
+	margin: 5% auto;
+	border-radius: 15px;
+	height: 650px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#logo {
+	display: block;
+	width: 40%;
+	margin: 5% auto;
+}
+
+p {
+	font-family: 'Hoefler Text', Georgia, serif;
+	font-style: italic;
+	font-size: 150%;
+	margin: 0;
+	padding: 1%;
+	text-indent: 35%;
+	text-decoration: underline;
+	text-shadow: 0 1px white;
+}
+
+#indent { text-indent: 45%; }
+
+.button.style {
+	font-family: sans-serif;
+	margin: 5% 40%;
+	font-size: 130%;
+	padding: 2% 5%;
+	min-width: 12%;
+	line-height: 140%;
+}

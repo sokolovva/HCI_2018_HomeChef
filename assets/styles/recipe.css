@@ -1,0 +1,202 @@
+body {  
+	background-image: linear-gradient(rgba(255,255,255,0.85),
+	                  rgba(255,255,255,0.85)), 
+					  url("../img/background.jpg");
+ 
+}
+
+p {
+	margin: 20px auto;
+	width: 980px;
+	border-radius: 10px;
+	border: 2px solid black;
+	font-family: 'Hoefler Text', Georgia, serif;
+	color: #45a316;
+	text-shadow: 0 1px #154c86;
+	font-size: 35px;
+	text-align: center;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.result {
+	font-family: Arial;
+	color: black;
+}
+
+
+
+li { height:30%;
+	 padding:10px;
+	 text-align:left;
+	 font-family: 'Hoefler Text', Georgia, serif;
+	 }
+
+
+h1 { font-size: 24px;
+	 font-family: 'Hoefler Text', Georgia, serif;
+	 color: #45a316;
+	 padding:5px;
+	 border-bottom-style: solid;
+   	 border-bottom-color: gray;}
+	 
+h2 { font-size: 20px;
+     font-weight: bold; }
+
+
+
+textarea {  width: 100%;
+			height: 100px;
+			padding: 5px 10px;
+			box-sizing: border-box;
+			border-radius: 8px;}
+
+.italic { font-style: italic; }
+
+label {
+    width: 350px;
+    text-align: right;
+}
+
+.input {
+	border-radius: 5px;
+	width: 100%;
+	height: 22px;
+	clear: both;
+}
+
+
+
+.container_title {
+    float:left;
+	padding:30px 20px 0px 50px	;
+}
+
+ul.recipe_details { 
+	display:inline-block;
+	padding:80px 100px;
+	list-style-type: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	height:200px;	}
+
+img {
+	width:400px;
+	height:300px;
+	
+}
+	
+.title {
+	font-size: 34px;
+	font-weight: 900;
+	font-family: 'Hoefler Text', Georgia, serif;
+	color: #45a316;
+	padding-bottom: 10px;
+}
+
+
+.larger {
+	font-size: 32px;
+	font-family: 'Hoefler Text', Georgia, serif;
+	color: #45a316;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.container_ingr {
+	width:30%;
+	float:left;
+	padding:3px 20px 30px 50px	;
+	margin-right:10%;
+}
+
+ul.ingredients {
+	font-size: 20px;
+	font-family: 'Hoefler Text', Georgia, serif;
+  
+}
+
+
+
+ol.method {
+	font-size: 20px;
+	font-family: 'Hoefler Text', Georgia, serif;
+}
+
+.section {
+	padding:3px 20px 30px 50px	;
+}
+
+
+img.more{
+	width: 320px;
+	height: 200px;
+}
+
+.container_img {
+	float:left;
+	position: relative;
+    text-align: center;
+    color: black;
+	font-size:22px;
+}
+
+.add {
+	font-family: sans-serif;
+	padding: 5px 10px;
+	margin: 35px 300px;
+	font-size: 30px;
+	min-width: 96px;
+	line-height: 46px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+	text-shadow: 0 1px #154c86;
+	background-color: #247edd;
+	background-clip: padding-box;
+	background-color: #1ca913;
+	border: 1px solid green;
+	border-radius: 5px;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}
+
+.add:before {
+	border-radius: 10px;
+	background: transparent;
+	box-shadow: inset 0 0 38px rgba(255, 255, 255, 0.5);
+}
+
+.add:active:before { box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2); }
+
+.add:hover { background-color: #159b0d; }
+
+.add:active {
+	text-shadow: 0 -1px #0d4d09;
+	background: #189210;
+	border-color: #093606 #0d4d09 #147b0e;
+	background-image: linear-gradient(to bottom, #126d0c, #20c016);
+}
+

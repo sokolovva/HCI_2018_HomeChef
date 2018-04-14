@@ -1,25 +1,27 @@
-body { background: url("../img/homechef-background.jpg"); }
+body { background: url("../img/background.jpg"); }
 
 .circle {
+    border: 1px solid black;
 	display: block;
 	margin: 80px auto;
-	width: 450px;
-	height: 450px;
+	width: 500px;
+	height: 500px;
 	border-radius: 50%;
 	background: rgba(255, 255, 255, 0.5);
 }
 
-.circle p {
+p {
 	font-family: 'Hoefler Text', Georgia, serif;
 	color: #45a316;
 	text-shadow: 0 1px #154c86;
-	font-size: 35px;
 	text-align: center;
-	padding-top: 100px;
+	font-size: 240%;
+	padding-top: 25%;
+	padding-bottom: 5%;
 }
 
 .microphone {
 	display: block;
-	width: 200px;
+	width: 50%;
 	margin: auto auto;
 }
